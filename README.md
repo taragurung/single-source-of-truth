@@ -22,10 +22,17 @@ The application will be simple nodejs api hosted on AWS EKS with AWS RDS as a da
 #### Future Goals:
 Initially we will write script can be in Makefile or bashscript for managing the CICD but for the deployment part ultimately we will be using the ***ARGOCD*** for application management on the kubernetes cluster, so we don't have to depend on writing commands on scripts.
 
+## Benefits of this approach:
+1. When no one is allowed to manually intervene means less chances of unknown changes among team.
+2. When someone makes changes on system manaully by logging into AWS and making changes, thats really hard to track. No such problem to occur and have clear understanding of what resources are in the place and at what stage. This we achieve with aws. 
+3. Easy to re-create new environment. 
 
-
-
-
-
+## Tools To Be Used:
+1. AWS as Cloud Provider
+2. Terraform for resource provisioning
+3. Kubernetes for containerization and orchestration
+4. Helm for package management
+5. ArgoCD
 
 ## Folder structure
+These will be added later as we make a problem standard for it
