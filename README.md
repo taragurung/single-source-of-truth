@@ -36,3 +36,6 @@ Initially we will write script can be in Makefile or bashscript for managing the
 
 ## Folder structure
 These will be added later as we make a problem standard for it
+
+## High Level Single Source of Truth WorkFlow
+![alt text](https://github.com/taragurung/single-source-of-truth/blob/main/ssot.png)
